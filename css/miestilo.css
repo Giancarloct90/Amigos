@@ -1,0 +1,292 @@
+
+.body{
+background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+/*Estilo del Menu*/
+/**********************/ 
+.dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+
+                background-color: #333333;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: white;
+                text-align: left;
+                text-decoration: none;
+                display: block;
+
+            }
+
+            .dropdown-content a:hover {background-color: #111111;}
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+
+            }
+
+            ul {
+            margin-top: 10px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            height: 53px;
+            width: auto;
+            background-color: #333333;
+            border-radius: 10px;
+
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                list-style-type: none;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: #111111;
+                color: white;
+                list-style-type: none;
+                text-decoration: none;
+                height: 53px;
+
+            }
+            .active {
+                background-color: #4CAF50;
+            }
+
+
+
+/*********************/
+
+
+
+/*DIV y divisiones*/
+/********************/
+.containerfull{
+	background-color: #7E8AA2;
+	border-radius: 10px;
+	height: auto;
+	padding: 20px;
+}
+.divcontent{
+    background-color:white;
+    height:auto;
+    width: inherit;
+    padding: 30px;
+    border-radius:10px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+/*******************/
+
+
+
+/*Letras y Fuentes*/
+/*************************/
+.titulo{
+    font-family: 'Chicle', cursive;
+    font-size: 70px;
+    color: #B64926;
+}
+
+.cuerpo{
+    font-family: 'Chicle', cursive;
+    font-size: 45px;
+    color: #B64926;
+}
+/************************/
+
+
+
+.ani{ -webkit-animation-delay: 1s;}
+
+
+/*Estilo de Login*/
+#bodylogin{
+    background-color: #7E8AA2;
+    border-radius: 10px;
+    
+
+}
+
+.bodi{
+    background-color: black;
+}
+
+.dix{
+    margin-top:50px;
+    height: 400px;
+    width: 500px;
+
+}
+/****************************/
+
+/*Tamanio de textbox*/
+/***************/
+.textsize{
+    width:250px;
+}
+.btnsize{
+    width:250px;
+}
+/****************/
+
+.filepicker{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+    color :#FFFFFF;
+    width:50px; 
+    text-align: center;
+}
+#uplo{
+    display: none;
+}
+
+.txtboxupload{
+    width: 196px;
+}
+
+#btnguardar{
+    width: 250px;
+}
+
+.divnotify{
+    width: 250px;
+    height: auto;
+}
+
+
+/*Estilo de Login*/
+.bodylogin {
+
+background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/***************************/
+
+
+/*div Login */
+
+.divi {
+    background: rgba(34,34,34,0.25);
+    width:400px;
+    height:auto;
+    padding: 20px;
+    border-radius:12px;\
+}
+
+
+/**************************************/
+
+/*Tamano y forma de los textbox*/
+.textbox{
+
+    height: 35px;
+    width: 290px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-style: bold;
+    padding-left: 5px;
+}
+
+
+/* Tamanio y formas de los botones*/
+.botons{
+    width: 290px;
+    height: 35px;
+}
+
+.titulo{
+    font-family: 'Chicle', cursive;
+    font-size: 80px;
+    color: #B64926;
+}
+
+/*image de login*/
+
+.imglogin{
+    justify-content: center;
+}
+
+/*****/
+h3{color:white;}
+
+
+table{
+
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4); 
+  padding: 30px;
+  border-radius: 10px;
+  border-spacing: 2px;
+  color: #FFFFFF;
+}
+
+
+#mycaru{
+   
+    width:960px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+ol{
+    margin: auto;
+    text-align: center;
+}
+
+#imgcaru{
+    width:960px;
+    height: 400px;
+}
+
+.closed1{
+    font-size: 10px;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+list-style-type: none;
+}
+
+.textdetalleamigo{
+
+font-family: 'Titan One', cursive;
+font-size: 25px;
+font-style: bold;
+}
+
+
+
+
+    
+
+  
